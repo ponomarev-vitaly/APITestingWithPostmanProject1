@@ -349,6 +349,15 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"case\": {\n    \"key\": \"REQRESAPI-T7\"  // Replace with the actual Jira key for this test case\n  },\n  \"asset\": {\n    \"type\": \"issue\",\n    \"key\": \"REQRESAPI-12\"  // Placeholder for the actual issue key\n  },\n  \"result\": {\n    \"name\": \"passed\"\n  }\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": "https://reqres.in/api/users/2"
 			},
 			"response": []
@@ -359,7 +368,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"type": "text/javascript",
+						"id": "9d61ab4f-8588-4669-a55e-5810511d84cc",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -369,7 +378,8 @@
 							"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 							"});"
 						],
-						"id": "9d61ab4f-8588-4669-a55e-5810511d84cc"
+						"type": "text/javascript",
+						"packages": {}
 					}
 				}
 			],
@@ -387,7 +397,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}",
+					"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}\r\n\r\n{\r\n  \"case\": {\r\n    \"key\": \"REQRESAPI-T8\"  // Replace with the actual Jira key for this test case\r\n  },\r\n  \"asset\": {\r\n    \"type\": \"issue\",\r\n    \"key\": \"REQRESAPI-12\"  // Placeholder for the actual issue key\r\n  },\r\n  \"result\": {\r\n    \"name\": \"passed\"\r\n  }\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -404,7 +414,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"type": "text/javascript",
+						"id": "d199d0d0-71a1-45ab-951a-f545559bb218",
 						"exec": [
 							"pm.test(\"Status code is 400\", function () {",
 							"    pm.response.to.have.status(400);",
@@ -414,7 +424,8 @@
 							"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 							"});"
 						],
-						"id": "d199d0d0-71a1-45ab-951a-f545559bb218"
+						"type": "text/javascript",
+						"packages": {}
 					}
 				}
 			],
@@ -432,7 +443,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"sydney@fife\"\r\n}",
+					"raw": "{\r\n    \"email\": \"sydney@fife\"\r\n}\r\n\r\n{\r\n  \"case\": {\r\n    \"key\": \"REQRESAPI-T9\"  // Replace with the actual Jira key for this test case\r\n  },\r\n  \"asset\": {\r\n    \"type\": \"issue\",\r\n    \"key\": \"REQRESAPI-12\"  // Placeholder for the actual issue key\r\n  },\r\n  \"result\": {\r\n    \"name\": \"passed\"\r\n  }\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
