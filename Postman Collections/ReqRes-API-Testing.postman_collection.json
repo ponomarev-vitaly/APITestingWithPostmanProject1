@@ -112,7 +112,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n  \"case\": {\n    \"key\": \"REQRESAPI-T2\"  // Replace with the actual Jira key for this test case\n  },\n  \"asset\": {\n    \"type\": \"issue\",\n    \"key\": \"REQRESAPI-12\"  // Placeholder for the actual issue key\n  },\n  \"result\": {\n    \"name\": \"passed\"\n  }\n}\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -129,7 +129,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"type": "text/javascript",
+						"id": "ac193b99-1fb8-41c3-9061-193834c6644c",
 						"exec": [
 							"pm.test(\"User not found\", function () {",
 							"    pm.response.to.have.status(404);",
@@ -139,7 +139,8 @@
 							"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 							"});"
 						],
-						"id": "ac193b99-1fb8-41c3-9061-193834c6644c"
+						"type": "text/javascript",
+						"packages": {}
 					}
 				}
 			],
@@ -150,6 +151,15 @@
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"case\": {\n    \"key\": \"REQRESAPI-T3\"  // Replace with the actual Jira key for this test case\n  },\n  \"asset\": {\n    \"type\": \"issue\",\n    \"key\": \"REQRESAPI-12\"  // Placeholder for the actual issue key\n  },\n  \"result\": {\n    \"name\": \"passed\"\n  }\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": "https://reqres.in/api/users/23"
 			},
 			"response": []
@@ -191,7 +201,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"email\" : \"vp211082@gmail.com\"\n}\n",
+					"raw": "{\n\t\"email\" : \"vp211082@gmail.com\"\n}\n\n{\n  \"case\": {\n    \"key\": \"REQRESAPI-T4\"  // Replace with the actual Jira key for this test case\n  },\n  \"asset\": {\n    \"type\": \"issue\",\n    \"key\": \"REQRESAPI-12\"  // Placeholder for the actual issue key\n  },\n  \"result\": {\n    \"name\": \"passed\"\n  }\n}\n\n",
 					"options": {
 						"raw": {
 							"language": "json"
