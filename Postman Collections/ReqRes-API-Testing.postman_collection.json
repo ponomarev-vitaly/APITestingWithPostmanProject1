@@ -460,7 +460,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"type": "text/javascript",
+						"id": "ede63c04-a200-47bf-925d-a4ef572d7918",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
@@ -470,7 +470,8 @@
 							"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 							"});"
 						],
-						"id": "ede63c04-a200-47bf-925d-a4ef572d7918"
+						"type": "text/javascript",
+						"packages": {}
 					}
 				}
 			],
@@ -488,7 +489,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"cityslicka\"\r\n}",
+					"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"cityslicka\"\r\n}\r\n\r\n{\r\n  \"case\": {\r\n    \"key\": \"REQRESAPI-T10\"  // Replace with the actual Jira key for this test case\r\n  },\r\n  \"asset\": {\r\n    \"type\": \"issue\",\r\n    \"key\": \"REQRESAPI-12\"  // Placeholder for the actual issue key\r\n  },\r\n  \"result\": {\r\n    \"name\": \"passed\"\r\n  }\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -505,7 +506,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"type": "text/javascript",
+						"id": "bf2c9895-493e-4bc2-a6e2-4f34611eae2f",
 						"exec": [
 							"pm.test(\"Status code is 400\", function () {",
 							"    pm.response.to.have.status(400);",
@@ -516,7 +517,8 @@
 							"",
 							""
 						],
-						"id": "bf2c9895-493e-4bc2-a6e2-4f34611eae2f"
+						"type": "text/javascript",
+						"packages": {}
 					}
 				}
 			],
@@ -534,7 +536,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"peter@klaven\"\r\n}",
+					"raw": "{\r\n    \"email\": \"peter@klaven\"\r\n}\r\n\r\n{\r\n  \"case\": {\r\n    \"key\": \"REQRESAPI-T11\"  // Replace with the actual Jira key for this test case\r\n  },\r\n  \"asset\": {\r\n    \"type\": \"issue\",\r\n    \"key\": \"REQRESAPI-12\"  // Placeholder for the actual issue key\r\n  },\r\n  \"result\": {\r\n    \"name\": \"passed\"\r\n  }\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
