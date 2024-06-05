@@ -401,7 +401,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}\r\n\r\n{\r\n  \"case\": {\r\n    \"key\": \"REQRESAPI-T8\"  // Replace with the actual Jira key for this test case\r\n  },\r\n  \"asset\": {\r\n    \"type\": \"issue\",\r\n    \"key\": \"REQRESAPI-12\"  // Placeholder for the actual issue key\r\n  },\r\n  \"result\": {\r\n    \"name\": \"passed\"\r\n  }\r\n}\r\n",
+					"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"pistol\"\r\n}\r\n\r\n\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -447,7 +447,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"sydney@fife\"\r\n}\r\n\r\n{\r\n  \"case\": {\r\n    \"key\": \"REQRESAPI-T9\"  // Replace with the actual Jira key for this test case\r\n  },\r\n  \"asset\": {\r\n    \"type\": \"issue\",\r\n    \"key\": \"REQRESAPI-12\"  // Placeholder for the actual issue key\r\n  },\r\n  \"result\": {\r\n    \"name\": \"passed\"\r\n  }\r\n}\r\n",
+					"raw": "{\r\n    \"email\": \"sydney@fife\"\r\n}\r\n\r\n\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -493,7 +493,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"cityslicka\"\r\n}\r\n\r\n{\r\n  \"case\": {\r\n    \"key\": \"REQRESAPI-T10\"  // Replace with the actual Jira key for this test case\r\n  },\r\n  \"asset\": {\r\n    \"type\": \"issue\",\r\n    \"key\": \"REQRESAPI-12\"  // Placeholder for the actual issue key\r\n  },\r\n  \"result\": {\r\n    \"name\": \"passed\"\r\n  }\r\n}\r\n",
+					"raw": "{\r\n    \"email\": \"eve.holt@reqres.in\",\r\n    \"password\": \"cityslicka\"\r\n}\r\n\r\n\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -540,7 +540,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"peter@klaven\"\r\n}\r\n\r\n{\r\n  \"case\": {\r\n    \"key\": \"REQRESAPI-T11\"  // Replace with the actual Jira key for this test case\r\n  },\r\n  \"asset\": {\r\n    \"type\": \"issue\",\r\n    \"key\": \"REQRESAPI-12\"  // Placeholder for the actual issue key\r\n  },\r\n  \"result\": {\r\n    \"name\": \"passed\"\r\n  }\r\n}\r\n",
+					"raw": "{\r\n    \"email\": \"peter@klaven\"\r\n}\r\n\r\n\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
